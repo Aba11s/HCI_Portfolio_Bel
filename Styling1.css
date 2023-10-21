@@ -1,0 +1,76 @@
+h1 {
+    font-size: 40px;
+}
+h2 {
+    color: rgb(12, 99, 105)
+}
+p {
+    color: rgb(30, 113, 138);
+    font-size: larger;
+}
+img {
+    margin: -20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+body {
+    color: antiquewhite;
+    background-color:antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+}
+
+header {
+    padding: 15px;
+    background-color:lightseagreen;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(32, 178, 171, 0.5);
+    
+}
+
+footer {
+    padding: 15px;
+    background-color: lightseagreen;
+    color: antiquewhite;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.flex-image {
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-item-1 {
+    padding: 15px;
+    background-color: lightseagreen;
+    font-size: 20px;
+    width: 100%
+}
+
+.flex-item-2 {
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.link {
+    font-size: 25px; 
+    color:antiquewhite;
+}
